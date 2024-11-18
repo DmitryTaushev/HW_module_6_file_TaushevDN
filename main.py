@@ -18,3 +18,11 @@ dir_6 = 'test_file_3.txt'
 
 path_module = os.path.join(disk,dir_1,dir_2,dir_3,dir_4,dir_5,dir_6)
 print(path_module)
+
+base_dir = '.'
+test_dir = 'data_path_2'
+new_dir = 'my_dir'
+path_base_dir = os.path.join(base_dir,test_dir)
+path_new_dir = os.path.join(base_dir,test_dir,new_dir)
+os.mkdir(path_new_dir)
+
