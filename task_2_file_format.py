@@ -12,3 +12,8 @@ filename = 'HW_text'
 
 write_text(filename)
 
+def read_text(filename):
+    with open(f'{filename}.txt','r',encoding = 'utf-8') as text:
+        content = text.read()
+        print(content)
+read_text(filename)
