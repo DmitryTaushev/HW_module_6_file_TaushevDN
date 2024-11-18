@@ -25,4 +25,4 @@ new_dir = 'my_dir'
 path_base_dir = os.path.join(base_dir,test_dir)
 path_new_dir = os.path.join(base_dir,test_dir,new_dir)
 os.mkdir(path_new_dir)
-
+os.rmdir(path_new_dir)
